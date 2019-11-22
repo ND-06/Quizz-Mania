@@ -1,0 +1,50 @@
+input {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translate(0px, -150px);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0px, 30px);
+    opacity: 0.65;
+    font-weight: 400;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+    font-weight: 500;
+  }
+}
+
+.quizz-section {
+  background-color: #235789;
+}
+
+.main-title {
+  animation: fadeIn 3s ease !important;
+  font-family: 'Be Vietnam', sans-serif;
+  color: #235789;
+}
+
+.very-bad-score {
+  color: red !important;
+}
+
+.bad-score {
+  color: #235789 !important;
+}
+
+.correct-score {
+  color: green !important;
+}
+
+.good-score {
+  color: greenyellow !important;
+}
