@@ -29,7 +29,10 @@ body {
 
 .main-title {
   animation: fadeIn 3s ease !important;
-  font-family: 'Be Vietnam', sans-serif;
+  -webkit-animation: fadeIn 3s ease !important; /* Safari 4+ */
+  -moz-animation: fadeIn 3s ease !important; /* Fx 5+ */
+  -o-animation: fadeIn 3s ease !important; /* Opera 12+ */
+  font-family: 'Lato', sans-serif;
   color: #3943b7;
 }
 
